@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
 int my_compute_square_root(int nb){
 	int i;
 	if(nb ==1){
@@ -11,11 +12,11 @@ int my_compute_square_root(int nb){
 	}
 	return 0;
 }
-void main(){
+/*void main(){
 	int n,nb,p;
 	printf("please input the number");
 	scanf("%d",&nb);
 	n = my_compute_square_root(nb);
 	printf("%d",n);
 	system("pause");
-}
+}*/

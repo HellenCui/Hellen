@@ -20,7 +20,7 @@ void my_evil_str(char *str,int len) {
 
 }
 
-void main()
+/*void main()
 {
 	char str[50];
 	printf("please input\n");
@@ -30,4 +30,4 @@ void main()
 	printf("%s", str);
 	system("pause");
 
-}
+}*/

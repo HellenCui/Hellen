@@ -1,4 +1,5 @@
 ﻿#include <stdio.h>  
+#include<unistd.h>
 #include <math.h>  
 
   
@@ -28,11 +29,11 @@ int count_valid_queens_placements(int k,int x[n])
        }
        return sum;
 }  
-void main()
+/*void main()
 {
     printf("Please input n:(n<15)");  
     scanf("%d",&n);  
 	int x[n]; 
     printf("%d\n",queen(1,x[n]));  
     return 0;  
-}
+}*/

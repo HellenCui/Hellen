@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
 int my_compute_factorial_it (int nb){
 	int n=1,i;
 	if(nb == 0||nb == 1){
@@ -13,11 +14,11 @@ int my_compute_factorial_it (int nb){
 	return n;
 }
 
-void main(){
+/*void main(){
 	int n,nb;
 	printf("please input the number");
 	scanf("%d",&nb);
 	n = my_compute_factorial_it(nb);
 	printf("%d",n);
 	system("pause");
-}
+}*/

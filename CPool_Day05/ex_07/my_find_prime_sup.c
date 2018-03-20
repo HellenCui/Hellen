@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
 int my_is_prime(int nb){
 	int i;
 	if(nb ==1){
@@ -29,11 +30,11 @@ int my_find_prime_sup(int nb){
 
 
 
-void main(){
+/*void main(){
 	int n,nb,p;
 	printf("please input the number");
 	scanf("%d",&nb);
 	n = my_find_prime_sup(nb);
 	printf("%d",n);
 	system("pause");
-}
+}*/
